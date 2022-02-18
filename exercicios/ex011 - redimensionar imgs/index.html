@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir essa página em dispositivos diferentes, ou aumente e diminua a janela do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/diana-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/diana-m.jpg" type="image/jpg">
+        <img src="imagens/diana-g.jpg" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/badfriend.mp3" controls></audio>
+    <h1>Reproduzindo vídeos hospedados localmente</h1>
+    <p>Assista a baixo ao dance practice de COCONUTS</p>
+    <video src="midia/coconuts.mp4" poster="imagens/thumb.jpg" width="500px" controls loop></video>
+    <h1>Reproduzindo vídeos hospedados na internet</h1>
+    <p>Veja exemplo de vídeo hospedados no youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZnTYG-qWj3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Agora veja pelo VIMEO</p>
+    <iframe src="https://player.vimeo.com/video/656413604?h=42e4c33b5e" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+</body>
+</html>
